@@ -18,53 +18,49 @@
         <div class="container-fluid">
          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header-top">
-            <a class="navbar-brand" href="#"><i class="fab fa-spotify"></i></a>
-            <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
-            <a class="navbar-brand" href="#"><i class="fas fa-search"></i></a>
-            <a class="navbar-brand library" href="#">II\</a>
+            <div class="icon-spoti">
+              <img id="logo" src="./img/spoti.png" alt="docker">
+              <a class="navbar-brand" href="#"><i class="fab fa-spotify"></i></a>
+            </div>
+            <div class="icon-title">
+              <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+              <span>Inicio</span>
+            </div>
+            <div class="icon-title">
+              <a class="navbar-brand" href="#"><i class="fas fa-search"></i></a>
+              <span>Buscar</span>
+            </div>
+            <div class="icon-title">
+              <a class="navbar-brand library" href="#">II\</a>
+              <span>Tu biblioteca</span>
+            </div>
+          </div>
+          <div class="navbar-header-central">
+            <h4>PLAYLIST</h4>
+            <div class="crear-playlist">
+              <button type="button" class="btn btn-default"><i class="fas fa-plus"></i></button>
+              <span>Crear Playlist</span>
+            </div>
+            <ul>
+              <li><a href="#">Nombre Playlist</a></li>
+              <li><a href="#">Nombre Playlist</a></li>
+              <li><a href="#">Nombre Playlist</a></li>
+              <li><a href="#">Nombre Playlist</a></li>
+              <li><a href="#">Nombre Playlist</a></li>
+              <li><a href="#">Nombre Playlist</a></li>
+            </ul>
           </div>
           <div class="navbar-header-bottom">
-            <a class="navbar-brand" href="#"><i class="fas fa-arrow-down"></i></a>
-            <a class="navbar-brand" href="#"><i class="far fa-user-circle"></i></a>
+            <div class="install">
+              <a class="navbar-brand" href="#"><i class="fas fa-arrow-down"></i></a>
+              <p>Instalar app</p>
+            </div>
+            <hr>
+            <div class="profile">
+              <a class="navbar-brand" href="#"><i class="far fa-user-circle"></i></a>
+              <span>Alessandro</span>
+            </div>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><! /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
       <div class="navbar-header-orizzontale">
@@ -74,7 +70,7 @@
     <main>
       <div class="container menu">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12">
             <a class="active" href="#">IN EVIDENZA</a>
             <a href="#">PODCASTS</a>
             <a href="#">LISTA DE ÉXITOS</a>
@@ -86,14 +82,14 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12">
             <h1>Escuchado recientemente</h1>
           </div>
         </div>
       </div>
       <div class="container songs">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12">
             <div class="playlist">
               <img src="./img/Courtesy-call.jpg" alt="docker">
               <h4>This is Thousand Foot Krutch</h4>
