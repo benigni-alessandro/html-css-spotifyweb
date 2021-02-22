@@ -1,0 +1,361 @@
+/* LAYOUT */
+body{
+  height: 100vh;
+}
+main{
+  padding-top: 80px;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  padding-left: 8%;
+  background-color: #1F1F1F;
+}
+.navbar-brand{
+  padding: 0;
+}
+.spotify-navbar-default{
+  width: 8%;
+  height: calc(100vh - 80px);
+  margin-bottom: 0;
+  background-color: black;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+.container-fluid{
+  display: flex;
+  flex-direction: column;
+}
+.navbar-header-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar-header-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-top: auto;
+}
+.navbar-header-orizzontale{
+  width: 100%;
+  height: 80px;
+  background-color: #101010;
+  padding-left: 8%;
+  padding-right: 15px;
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+footer{
+  width: 100%;
+  height: 80px;
+}
+
+.play{
+  width: 100%;
+  height: 80px;
+  background-color: #191919;
+  position: fixed;
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+}
+/* NAVBAR-TOP */
+
+.navbar-header-top a{
+  margin-top: 10px;
+  height: auto;
+}
+.fab.fa-spotify{
+  color: white;
+  font-size: 25px;
+}
+.fas.fa-home{
+  color: white;
+  font-size: 20px;
+}
+.fas.fa-search{
+  color: #9E9E9E;
+  font-size: 20px;
+  font-weight: bold;
+}
+.library{
+  color: #9E9E9E;
+  font-size: 20px;
+  font-weight: normal;
+}
+/* NAVBAR-BOTTOM */
+
+.navbar-header-bottom a{
+  margin-top: 15px;
+  height: auto;
+}
+.far.fa-user-circle{
+  color: white;
+  background-color: #9E9E9E;
+  font-size: 23px;
+  border-radius: 50%;
+}
+.fas.fa-arrow-down{
+  color: white;
+  font-size: 8px;
+  border: 1px solid white;
+  padding: 2px 3px;
+  border-radius: 50%;
+}
+/* NAVBAR ORIZZONTALE */
+button.btn.i-btn-default.navbar-btn{
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #101010;
+  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 18px;
+}
+
+/* MENU */
+.container.menu .col-xs-12{
+  height: 90px;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.menu a{
+  color: #9E9E9E;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+a.active{
+  position: relative;
+}
+/* hr {
+  width: 30px;
+  border: 2px solid #68D962;
+  position: absolute;
+  top: 10%;
+  left: 13%;
+} */
+/* .icon-bar{
+  color: #68D962;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+h1{
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+/* PLAYLIST */
+.songs img{
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+}
+.songs .col-xs-12{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.playlist{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.playlist h4{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 35px;
+  width: 100%;
+  padding: 0 10px;
+  display: block;
+}
+/* FOOTER COLONNA DI SINISTRA  */
+.left {
+  width: calc(100% / 3);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.text-song{
+  margin-left: 6px;
+  width: auto;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: visible;
+}
+.play img{
+  height: 40px;
+  width: 40px;
+}
+.text-song p{
+  color: #9E9E9E;
+  font-size: 8px;
+  margin: 0;
+  width: auto;
+}
+.text-song h4{
+  color: white;
+  font-size: 10px;
+  margin: 0;
+  width: auto;
+}
+.like{
+  height: 35px;
+  margin-left: 5px;
+  color: #9E9E9E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* FOOTER COLONNA CENTRALE */
+.center{
+  width: calc(100% / 3);
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.command{
+  width: 100%;
+  padding: 10px 8px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.far.fa-play-circle{
+  font-size: 30px;
+}
+/* FOOTER RIGHT */
+.right{
+  width: calc(100% / 3);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.volumen{
+  width: 100%;
+  padding: 0 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.volumen i{
+  padding: 0 8px;
+}
+.slidecontainer{
+  display: flex;
+  margin-left: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+#myRange::before{
+  content: "\f028";
+  font-family: "Font Awesome 5 Free";
+  color: white;
+  display: inline-block;
+  font-weight: bolder;
+  position: absolute;
+  top: -2px;
+  left: -20px;
+}
+input[type=range] {
+    display: inline-block;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  body{
+    height: 100vh;
+  }
+  main{
+    padding-top: 80px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    padding-left: 30%;
+    background-color: #1F1F1F;
+  }
+  .spotify-navbar-default{
+    width: 30%;
+    height: calc(100vh - 80px);
+    margin-bottom: 0;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
+  .container-fluid{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-header-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-header-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-top: auto;
+  }
+  .navbar-header-orizzontale{
+    width: 100%;
+    height: 80px;
+    background-color: #101010;
+    padding-left: 30%;
+    padding-right: 15px;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  footer{
+    width: 100%;
+    height: 80px;
+  }
+
+  .play{
+    width: 100%;
+    height: 80px;
+    background-color: #191919;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-direction: row;
+  }
+}
