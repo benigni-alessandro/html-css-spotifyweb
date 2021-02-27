@@ -24,7 +24,7 @@
             </div>
             <div class="icon-title">
               <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
-              <span>Inicio</span>
+              <span class="white">Inicio</span>
             </div>
             <div class="icon-title">
               <a class="navbar-brand" href="#"><i class="fas fa-search"></i></a>
@@ -71,12 +71,14 @@
       <div class="container menu">
         <div class="row">
           <div class="col-xs-12 col-sm-12">
-            <a class="active" href="#">IN EVIDENZA</a>
-            <a href="#">PODCASTS</a>
-            <a href="#">LISTA DE ÉXITOS</a>
-            <a href="#">GÉNEROS</a>
-            <a href="#">NOVEDADES</a>
-            <a href="#">DESCUBRIR</a>
+            <!-- <div class="ricerca"> -->
+              <a class="active" href="#">IN EVIDENZA</a>
+              <a href="#">PODCASTS</a>
+              <a href="#">LISTA DE ÉXITOS</a>
+              <a href="#">GÉNEROS</a>
+              <a href="#">NOVEDADES</a>
+              <a href="#">DESCUBRIR</a>
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -89,30 +91,112 @@
       </div>
       <div class="container songs">
         <div class="row">
-          <div class="col-xs-12 col-sm-12">
+          <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="playlist">
-              <img src="./img/Courtesy-call.jpg" alt="docker">
+              <div class="img-overlay">
+                <img src="./img/Courtesy-call.jpg" alt="docker">
+                <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
               <h4>This is Thousand Foot Krutch</h4>
             </div>
             <div class="playlist">
-              <img src="./img/Top-50_spain.jpg" alt="docker">
+              <div class="img-overlay">
+                <img src="./img/Top-50_spain.jpg" alt="docker">
+                <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
               <h4>Top 50 Spain</h4>
             </div>
             <div class="playlist">
-              <img src="./img/Ocean.jpg" alt="docker">
+              <div class="img-overlay">
+                  <img src="./img/Ocean.jpg" alt="docker">
+                <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
               <h4>The Astronaut in the Ocean</h4>
             </div>
             <div class="playlist">
-              <img src="./img/Black-eyed.jpg" alt="docker">
+              <div class="img-overlay">
+                  <img src="./img/Black-eyed.jpg" alt="docker">
+                <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
               <h4>Mix Diario 5</h4>
             </div>
             <div class="playlist">
-              <img src="./img/Trevis.jpg" alt="docker">
+              <div class="img-overlay">
+                  <img src="./img/Trevis.jpg" alt="docker">
+                  <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
               <h4>This is Trevis</h4>
             </div>
             <div class="playlist">
-              <img src="./img/Trueno.jpg" alt="docker">
+              <div class="img-overlay">
+                  <img src="./img/Trueno.jpg" alt="docker">
+                  <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
               <h4>This is Trueno</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <h1>Hecho para Alessandro</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container songs">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="playlist">
+              <div class="img-overlay">
+                  <img src="./img/daily-1.png" alt="docker">
+                  <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Mix diario 3</h4>
+            </div>
+            <div class="playlist">
+              <div class="img-overlay">
+                  <img src="./img/daily-2.png" alt="docker">
+                  <div class="overlay">
+                  <i class="far fa-play-circle"></i>
+                </div>
+              </div>
+              <h4>Mix diario 6</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <h1>Artistas populares</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container songs">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="playlist">
+              <img class="artista" src="./img/t.jpg" alt="docker">
+              <h4>Trueno</h4>
+            </div>
+            <div class="playlist">
+              <img class="artista" src="./img/week-1.jpg" alt="docker">
+              <h4>The Weeknd</h4>
             </div>
           </div>
         </div>
@@ -139,7 +223,7 @@
             <i class="fas fa-step-forward"></i>
             <i class="fas fa-redo-alt"></i>
           </div>
-          <input type='range' min='1' max='100' value='20' step='20'/>
+          <input type="range" min="1" max="100" value="50">
         </div>
         <div class="right">
           <div class="volumen">
